@@ -1,1 +1,86 @@
-/* CSS stillerinizi buraya girin */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+}
+header{
+  background: rgb(44, 8, 85);
+  height: auto;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1{
+  padding: 2rem;
+}
+header nav a{
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 0.75rem;
+  margin: 1rem;
+  text-decoration: none;
+}
+header nav a:hover{
+  background: rgb(240, 140, 187);
+  color: black;
+}
+main{
+  padding: 1.5rem;
+  margin: auto;
+}
+main h1,p{
+  color: gray;
+  padding: 0.5rem;
+}
+button{
+  background: rgb(71, 54, 92);
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+main div{
+  width: 90%;
+  height: 850px;
+  margin: auto;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(/stars-1837306__340.jpg);
+  background-size: cover;
+}
+.main-1{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 1.5rem;
+}
+.main-1 h2{
+  font-size: 3rem;
+  padding: 1.5rem;
+}
+.img{
+  width: 800px;
+  height: 700px;
+}
+footer nav{
+  background: rgb(240, 140, 187);
+  text-align: center;
+  padding: 30px;
+}
+
+
+
+
+
+
+
+
+
